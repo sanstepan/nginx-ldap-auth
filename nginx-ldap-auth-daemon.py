@@ -4,7 +4,7 @@
 
 # Copyright (C) 2014-2015 Nginx, Inc.
 
-import sys, os, signal, base64, ldap3, argparse
+import sys, os, signal, base64, ldap, argparse
 if sys.version_info.major == 2:
     from Cookie import BaseCookie
     from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
